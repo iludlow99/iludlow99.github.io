@@ -823,7 +823,7 @@
 		width: 100%;
 		padding: 0.65em 0.75em;
 		background: none;
-		border: solid 2px #e5e6e7;
+		border: solid 2px #bfbfbf;
 		color: inherit;
 		border-radius: 0.5em;
 		outline: none;
@@ -914,7 +914,7 @@
 			top: 0;
 			width: 100%;
 			height: 100%;
-			background: url("images/overlay.png");
+			background: url("https://codepen.io/Isaacode/full/jLaYZE/");
 		}
 
 		.image img {
@@ -1768,8 +1768,8 @@
 	}
 
 		.main > .content {
-			width: 45em;
-			max-width: calc(100% - 4em);
+			width: 100%;
+			/*max-width: calc(100% - 4em);*/
 			margin: 0 auto;
 		}
 
@@ -2151,3 +2151,14 @@
 			}
 
 		}
+
+.vernon {
+	height: auto;
+	width: 400px;
+	padding: 0.3em;
+}
+
+.vernon:hover,
+.vernon:focus {
+	background: #cccccc;
+}
