@@ -2158,6 +2158,14 @@
 	padding: 0.3em;
 }
 
+@media(min-width: 767px) {
+	.vernon {
+		height: auto;
+		width: 300px;
+		padding: 0.3em;
+	}
+}
+
 .vernon:hover,
 .vernon:focus {
 	background: #cccccc;
