@@ -2174,7 +2174,21 @@
 	}
 } */
 
-.vernon:hover,
-.vernon:focus {
-	background: #e5e5e5;
+.textWithBlurredBg:hover img {
+	opacity: 0.7;	
+	/*background: #e5e5e5;*/
 }
+
+.textWithBlurredBg {
+	display: inline-block;
+	font-size: 1.2em;
+}
+
+.textWithBlurredBg :not(img) {
+
+}
+
+a:link {
+	text-decoration: none;
+}
+
